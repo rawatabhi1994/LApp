@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:title="@string/my_account"
+
+            />
+        <item
+            android:id="@+id/nav_my_partner"
+            android:title="@string/my_partner" />
+        <item
+            android:id="@+id/faq"
+            android:title="@string/faq" />
+        <item
+            android:id="@+id/nav_share_app"
+            android:title="@string/share_app" />
+        <item
+            android:id="@+id/nav_rate_app"
+            android:title="@string/rate_app" />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="@string/contact" />
+        <item
+            android:id="@+id/nav_report_abuse"
+            android:title="@string/report_abuse" />
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:title="@string/disclaimer" />
+
+    </group>
+
+</menu>
